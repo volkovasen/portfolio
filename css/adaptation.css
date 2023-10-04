@@ -131,15 +131,13 @@
     }
     .subtitle__footer {
         padding-bottom: 50px;
+        margin-right: 0;
     }
 }
 @media (max-width:890px) {
     .subtitle {
         font-size: 200px;
         letter-spacing: -20px;
-    }
-    .topic {
-        text-align: left;
     }
     .social {
         font-size: 20px;
@@ -227,6 +225,10 @@
             transform: translateX(-150%)
         }
     }
+    .subtitle__footer {
+        font-size: 140px;
+        letter-spacing: -16px;
+    }
 }
 @media (max-width:504px)  {
     .top {
@@ -250,6 +252,10 @@
             transform: translateX(-200%)
         }
     }
+    .subtitle__footer {
+        font-size: 120px;
+        letter-spacing: -12px;
+    }
 }
 @media (max-width:450px) {
     .subtitle {
@@ -269,5 +275,23 @@
     }
     .linear {
         padding: 10px 0;
+    }
+    .subtitle__footer {
+        font-size: 100px;
+        letter-spacing: -10px;
+    }
+}
+@media (max-width:375px) {
+    .subtitle {
+        font-size: 90px;
+        letter-spacing: -8px;
+    }
+    .subtitle__footer {
+        font-size: 90px;
+        letter-spacing: -8px;
+    }
+    .text_work {
+        font-size: 24px;
+        text-align: center;
     }
 }
