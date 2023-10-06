@@ -95,6 +95,14 @@
     .ikea_flex img{
         max-width: 100%;
     }
+    .heg_flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .heg_flex img{
+        width: 100%;
+    }
+    
 }
 @media (max-width:950px) {
     .subtitle {
@@ -187,12 +195,27 @@
     }
     .planet_phone {
         width: 100%;
+        margin-top: -5px;
     }
     .planet_flex {
         flex-direction: column;
     }
     .planet_flex img{
         width: 100%;
+    }
+    .card_flex {
+        display: inline-block;
+    }
+    .card_flex img{
+        width: 100%;
+        margin-top: -3px;
+    }
+    .heg_flex {
+        display: inline-block;
+    }
+    .heg_flex img{
+        width: 100%;
+        margin-top: -3px;
     }
 }
 @media (max-width:670px) {
@@ -210,6 +233,9 @@
 @media (max-width:600px) {
     .ikea_flex {
         display: block;
+    }
+    .ikea_flex img{
+        margin-top: -5px;
     }
 }
 @media (max-width:550px)  {
