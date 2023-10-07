@@ -184,6 +184,7 @@ p {
     width: 100%;
     display: flex;
     background: #000;
+    padding-bottom: 10px;
 }
 /* button */
 .work a{
