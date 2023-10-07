@@ -129,6 +129,7 @@
     .footer_social {
         margin-right: 0px;
         padding-bottom: 50px;
+        color: #aaff00;
     }
     .button {
         border-bottom: 0px;
@@ -140,6 +141,13 @@
     .subtitle__footer {
         padding-bottom: 50px;
         margin-right: 0;
+    }
+    .social {
+        border-bottom: 0px;
+        color: #aaff00;
+    }
+    .text_work {
+        color: #aaff00; 
     }
 }
 @media (max-width:890px) {
