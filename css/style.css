@@ -179,6 +179,12 @@ p {
 .heg_flex img{
     width: 25%;
 }
+.video_ring {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    background: #000;
+}
 /* button */
 .work a{
     display: flex;

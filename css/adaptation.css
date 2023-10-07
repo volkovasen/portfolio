@@ -237,6 +237,10 @@
     .ikea_flex img{
         margin-top: -5px;
     }
+    .button {
+        border-bottom: 0px;
+        width: 120px;
+    }
 }
 @media (max-width:550px)  {
     .subtitle {
