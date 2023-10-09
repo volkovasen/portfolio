@@ -249,6 +249,12 @@
         border-bottom: 0px;
         width: 120px;
     }
+    .flex_venezi {
+        display: inline-block;
+    }
+    .venezi img{
+        width: 100%;
+    }
 }
 @media (max-width:550px)  {
     .subtitle {

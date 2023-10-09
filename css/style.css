@@ -186,6 +186,12 @@ p {
     background: #000;
     padding-bottom: 10px;
 }
+.flex_venezi {
+    display: flex;
+}
+.venezi img{
+    width: 50%;
+}
 /* button */
 .work a{
     display: flex;
